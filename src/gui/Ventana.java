@@ -41,10 +41,10 @@ public class Ventana extends javax.swing.JFrame {
         //Info de la Ventana
         String nombreDelSistema = "Inventario de Herramientas";
         this.setTitle(nombreDelSistema);
-        iconoPrincipal = new ImageIcon(getClass().getResource("../gui/img/iconoPrincipal.png")).getImage();
+        iconoPrincipal = new ImageIcon(getClass().getResource("iconoPrincipal.png")).getImage();
         this.setIconImage(iconoPrincipal);
         imagenDeInicio.setText("");
-        imagenDeInicio.setIcon(new ImageIcon (getClass().getResource("../gui/img/iconoPrincipal1.png")));
+        imagenDeInicio.setIcon(new ImageIcon (getClass().getResource("iconoPrincipal1.png")));
         
         
         //Iniciar componentes de Catálogo como invisibles
